@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<driverVehicleInfo>
+    <vehicle>
+        <vehicleId>1</vehicleId>
+        <name>Limousine</name>
+    </vehicle>
+    <vehicle>
+        <vehicleId>2</vehicleId>
+        <name>Aston Martin</name>
+    </vehicle>
+    <vehicle>
+        <vehicleId>3</vehicleId>
+        <name>Bus</name>
+    </vehicle>
+
+    <driver>
+        <driverId>1</driverId>
+        <firstName>John</firstName>
+        <lastName>Doe</lastName>
+        <vehicleId>1</vehicleId>
+        <vehicleId>2</vehicleId>
+    </driver>
+    <driver>
+        <driverId>2</driverId>
+        <name>Joe Blocks</name>
+        <vehicleId>3</vehicleId>
+    </driver>
+    <!--
+    <NameValuePairs>
+        <name>FileAliases</name>
+        <NameValuePair>
+            <name>tibco.alias.CoESharedLibrary.projlib</name>
+            <value>CoESharedLibrary.projlib</value>
+            <description/>
+            <requiresConfiguration>false</requiresConfiguration>
+            <disableConfigureAtDeployment>true</disableConfigureAtDeployment>
+        </NameValuePair>
+        <NameValuePair>
+            <name>tibco.alias.CoESharedLibrary.projlib1</name>
+            <value>CoESharedLibrary.projlib</value>
+            <description/>
+            <requiresConfiguration>false</requiresConfiguration>
+            <disableConfigureAtDeployment>true</disableConfigureAtDeployment>
+        </NameValuePair>
+        <NameValuePair>
+            <name>tibco.alias.iPEJMSClientLibrary.projlib1</name>
+            <value>iPEJMSClientLibrary.projlib</value>
+            <description/>
+            <requiresConfiguration>false</requiresConfiguration>
+            <disableConfigureAtDeployment>true</disableConfigureAtDeployment>
+        </NameValuePair>
+    </NameValuePairs> 
+    -->
+</driverVehicleInfo>
